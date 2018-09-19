@@ -27,6 +27,7 @@ const Layout = ({ children }) => (
           ]}
         >
         </Helmet>
+        <Header/>
         <div>
           {children}
         </div>
