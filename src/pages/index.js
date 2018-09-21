@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Card from '../components/Card';
+import Section from '../components/Section';
 
 const IndexPage = () => (
   <Layout>
@@ -54,6 +55,12 @@ const IndexPage = () => (
               image={require('../images/wallpaper4.jpg')}/>
          </div>
       </div>
+      <Section 
+        image={require('../images/wallpaper2.jpg')}
+        logo={require('../images/logo-react.png')}
+        title="Digital Product Designer"
+        text="I design mobile apps, websites, & digital experiences. Currently, I work at Livefront where I’ve had the privilege to design large-scale products for clients such as Target, United Healthcare, Delta Dental, General Mills, Medtronic, Geico & many more."
+      />
     </div>
   </Layout>
 )
